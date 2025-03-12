@@ -11,8 +11,8 @@ semestre = int(input("Digite qual o semestre que ele está: "))
 saldo_bancario = float(input("Digite o saldo bancario dele: "))
 
 # IMPRIMINDO VALORES
-print(f"\n{nome} estuda na {universidade} e está no {semestre}º semestre")
-print("Saldo bancario: " + str(saldo_bancario))
+print(f"\n{nome.capitalize()} estuda na {universidade.upper()} e está no {semestre}º semestre")
+print("Saldo bancario: R$" + str(saldo_bancario))
 
 # EXIBINDO O TIPO DA VARIAVEL
 print("\n----------TIPOS DAS VARIAVEIS----------")

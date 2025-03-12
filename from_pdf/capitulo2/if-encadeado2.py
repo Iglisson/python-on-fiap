@@ -1,7 +1,7 @@
 #
 nome = input("Digite seu nome: ")
 idade = int(input("Digite sua idade: "))
-doenca_infectocontagiosa = input("Suspeita de doenca infectocontagiosa? [SIM ou NAO] > ").upper()
+doenca_infectocontagiosa = input("Suspeita de doença infectocontagiosa? [SIM ou NAO] > ").upper()
 
 # PRIMEIRO PROBLEMA A SER RESOLVIDO
 if doenca_infectocontagiosa == "SIM":

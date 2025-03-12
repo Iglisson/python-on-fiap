@@ -1,7 +1,7 @@
 # VARIAVEIS
 nome = input("Digite o nome: ").capitalize()
 idade = int(input("Digite a idade: "))
-doenca_infectocontagiosa = input("Suspeta de doenca infectocontagiosa? [SIM ou NAO] -> ").upper()
+doenca_infectocontagiosa = input("Suspeita de doença infectocontagiosa? [SIM ou NAO] -> ").upper()
 
 # ESTRUTURA DE DECISÃO ENCADEADA (sem uso de logicos)
 if doenca_infectocontagiosa == "SIM":
